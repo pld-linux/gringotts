@@ -27,7 +27,7 @@ zorganizowanej, zoptymalizowanej i przede wszystkim bardzo bezpiecznej
 formie.
 
 %prep
-%setup -q -n %{name}-%{version}
+%setup -q
 %patch0 -p1
 
 %build
