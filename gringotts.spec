@@ -7,6 +7,7 @@ Epoch:		1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://devel.pluto.linux.it/projects/Gringotts/current/%{name}-%{version}.tar.bz2
+# Source0-md5:	24b00b9249128c32288b6739e8cb99ff
 Patch0:		%{name}-desktop.patch
 URL:		http://devel.pluto.linux.it/projects/Gringotts/
 BuildRequires:	gtk+2-devel
