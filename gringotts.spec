@@ -1,13 +1,13 @@
 Summary:	Utility to store sensitive data
 Summary(pl):	Narzêdzie do przechowywania delikatnych danych
 Name:		gringotts
-Version:	1.2.7
+Version:	1.2.8
 Release:	1
 Epoch:		1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://devel.pluto.linux.it/projects/Gringotts/current/%{name}-%{version}.tar.bz2
-# Source0-md5:	24b00b9249128c32288b6739e8cb99ff
+# Source0-md5:	f84add2aadca642a354105f63c117dec
 Patch0:		%{name}-desktop.patch
 URL:		http://devel.pluto.linux.it/projects/Gringotts/
 BuildRequires:	gtk+2-devel
