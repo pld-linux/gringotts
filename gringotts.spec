@@ -2,7 +2,7 @@ Summary:	Utility to store sensitive data
 Summary(pl):	Narzêdzie do przechowywania delikatnych danych
 Name:		gringotts
 Version:	1.2.8
-Release:	3
+Release:	4
 Epoch:		1
 License:	GPL
 Group:		X11/Applications
