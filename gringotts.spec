@@ -13,6 +13,8 @@ Patch1:		%{name}-gtk+2.patch
 URL:		http://devel.pluto.linux.it/projects/Gringotts/
 BuildRequires:	gtk+2-devel
 BuildRequires:	libgringotts-devel >= 1.1.1
+BuildRequires:	libmcrypt-devel
+BuildRequires:	pkgconfig
 BuildRequires:	popt-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
