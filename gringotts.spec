@@ -2,7 +2,7 @@ Summary:	Utility to store sensitive data
 Summary(pl):	Narzêdzie do przechowywania delikatnych danych
 Name:		gringotts
 Version:	1.2.8
-Release:	2
+Release:	3
 Epoch:		1
 License:	GPL
 Group:		X11/Applications
@@ -41,7 +41,7 @@ formie.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_desktopdir}
 
-%{__make} install \
+%{__make} -j1 install \
 	DESTDIR=$RPM_BUILD_ROOT
 
 mv $RPM_BUILD_ROOT%{_datadir}/gnome/apps/Utilities/%{name}.desktop \
