@@ -37,13 +37,13 @@ formie.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_datadir}/applications
+install -d $RPM_BUILD_ROOT%{_desktopdir}
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
 mv $RPM_BUILD_ROOT%{_datadir}/gnome/apps/Utilities/%{name}.desktop \
-	$RPM_BUILD_ROOT%{_datadir}/applications
+	$RPM_BUILD_ROOT%{_desktopdir}
 
 %find_lang %{name}
 
@@ -54,5 +54,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS BUGS FAQ README TODO
 %attr(755,root,root) %{_bindir}/*
-%{_datadir}/applications/*
+%{_desktopdir}/*
 %{_pixmapsdir}/*
