@@ -1,0 +1,11 @@
+--- gringotts-1.2.8/src/gringotts.c	2004-05-30 11:39:00.627819240 +0200
++++ gringotts-1.2.8/src/gringotts.c	2004-05-30 11:38:39.650008352 +0200
+@@ -29,6 +29,8 @@
+ #include <fcntl.h>
+ 
+ #include <gtk/gtk.h>
++#undef GTK_DISABLE_DEPRECATED
++#include <gtk/gtkoptionmenu.h>
+ 
+ #include "grg_defs.h"
+ #include "grg_pix.h"
