@@ -6,6 +6,6 @@ diff -urN aaa/gringotts-1.3.0pre5/gringotts.desktop.in gringotts-1.3.0pre5/gring
  GenericName[de]=Elektronischer "Tresor"
  Comment[de]=Ein elektronischer "Tresor"
 +Comment[pl]=Elektroniczny strażnik
-+Categories=Application;Utility;
++Categories=GTK;Utility;
 
 # vi: encoding=utf-8
