@@ -11,6 +11,7 @@ Source0:	http://devel.pluto.linux.it/projects/Gringotts/current/%{name}-%{versio
 Patch0:		%{name}-desktop.patch
 Patch1:		%{name}-gtk+2.patch
 URL:		http://devel.pluto.linux.it/projects/Gringotts/
+BuildRequires:	gettext-devel
 BuildRequires:	gtk+2-devel
 BuildRequires:	libgringotts-devel >= 1.1.1
 BuildRequires:	libmcrypt-devel
