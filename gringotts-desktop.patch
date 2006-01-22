@@ -16,7 +16,7 @@ diff -urN aaa/gringotts-1.3.0pre5/gringotts.desktop.in gringotts-1.3.0pre5/gring
 -Name[de]=@GRG_CAP_NAME@
  GenericName[de]=Elektronischer "Tresor"
  Comment[de]=Ein elektronischer "Tresor"
-+GenericName[pl=Elektroniczny strażnik
++GenericName[pl]=Elektroniczny strażnik
 +Comment[pl]=Elektroniczny strażnik
 +Categories=GTK;Utility;
 +# vi: encoding=utf-8
