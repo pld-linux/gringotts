@@ -1,5 +1,5 @@
 Summary:	Utility to store sensitive data
-Summary(pl):	Narzêdzie do przechowywania delikatnych danych
+Summary(pl.UTF-8):   NarzÄ™dzie do przechowywania delikatnych danych
 Name:		gringotts
 Version:	1.2.8
 Release:	4
@@ -24,9 +24,9 @@ Gringotts is a small but useful utility that stores sensitive data
 (passwords, credit card numbers, friends' addresses) in an organized,
 optimized and most of all very secure form.
 
-%description -l pl
-Gringotts jest ma³ym, lecz u¿ytecznym narzêdziem przechowuj±cym
-delikatne dane (has³a, numery kart kredytowych, adresy przyjació³) w
+%description -l pl.UTF-8
+Gringotts jest maÅ‚ym, lecz uÅ¼ytecznym narzÄ™dziem przechowujÄ…cym
+delikatne dane (hasÅ‚a, numery kart kredytowych, adresy przyjaciÃ³Å‚) w
 zorganizowanej, zoptymalizowanej i przede wszystkim bardzo bezpiecznej
 formie.
 
