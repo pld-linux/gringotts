@@ -1,5 +1,5 @@
 Summary:	Utility to store sensitive data
-Summary(pl.UTF-8):   Narzędzie do przechowywania delikatnych danych
+Summary(pl.UTF-8):	Narzędzie do przechowywania delikatnych danych
 Name:		gringotts
 Version:	1.2.8
 Release:	4
