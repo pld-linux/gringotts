@@ -10,6 +10,7 @@ Source0:	http://download.berlios.de/gringotts/%{name}-%{version}.tar.gz
 # Source0-md5:	6f17589f1cb7d08be73728843dcf286a
 Patch0:		%{name}-desktop.patch
 Patch1:		%{name}-gtk+2.patch
+Patch2:		compile.patch
 URL:		http://gringotts.berlios.de/
 BuildRequires:	gettext-devel
 BuildRequires:	gtk+2-devel
@@ -34,8 +35,12 @@ formie.
 %setup -q
 %patch0 -p1
 %patch1 -p1
+%patch2 -p1
 
 %build
+%{__aclocal}
+%{__automake}
+%{__autoconf}
 %configure
 
 %{__make}
