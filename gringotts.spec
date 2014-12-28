@@ -12,7 +12,7 @@ Patch0:		%{name}-desktop.patch
 Patch1:		%{name}-gtk+2.patch
 Patch2:		compile.patch
 URL:		http://gringotts.berlios.de/
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	gtk+2-devel
 BuildRequires:	libgringotts-devel >= 1.1.1
 BuildRequires:	libmcrypt-devel
